@@ -1,6 +1,6 @@
 # Langton's ant
 
-![Langton's ant first 60 steps](https://github.com/AlexFabre/Langton-ant/blob/master/langton_ant.gif){ width=5000% }
+![Langton's ant first 60 steps](https://github.com/AlexFabre/Langton-ant/blob/master/langton_ant.gif | width=100)
 
 This is a little implementation of Mr Langton well known ant algorithm. This programm is in C and should run easily on macOS and Linux.
 
