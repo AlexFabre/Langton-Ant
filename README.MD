@@ -2,7 +2,7 @@
 
 This is a little implementation of Mr Langton well known ant algorithm. This programm is in C and should run easily on macOS and Linux.
 
-<img src="https://github.com/AlexFabre/Langton-ant/blob/master/langton_ant.gif" width=400px height=400px />
+<img src="https://github.com/AlexFabre/Langton-ant/blob/master/langton_ant.gif" width=400px height=400px image-rendering: pixelated />
 
 ## Build
 
