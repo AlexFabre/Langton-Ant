@@ -7,13 +7,13 @@
 #define     DEFAULT_GRID_SIZE   20
 #define     DEFAULT_STEP        1
 
-void print_picture(ant_t* p_ant, long nb_cell, cell_t** p_board);
-void  look(ant_t* a, cell_t** p_board);
+void print_picture(ant_t* p_ant, unsigned long nb_cell, cell_t** p_board);
+void look(ant_t* a, cell_t** p_board);
 
 /********************************************************************
 Function
 ********************************************************************/
-ant_t new_ant(char* p_name, long p_startx, long p_starty) 
+ant_t new_ant(char* p_name, unsigned long p_startx, unsigned long p_starty) 
 {
     ant_t a;
     a.name = p_name;
@@ -70,7 +70,7 @@ void look(ant_t* p_ant, cell_t** p_board)
 /********************************************************************
 Code
 ********************************************************************/
-void print_picture(ant_t* p_ant, long nb_cell, cell_t** p_board)
+void print_picture(ant_t* p_ant, unsigned long nb_cell, cell_t** p_board)
 {
     char filename[10];
   	sprintf(filename, "%ld", p_ant->step);
@@ -84,7 +84,7 @@ void print_picture(ant_t* p_ant, long nb_cell, cell_t** p_board)
     const int MaxColorComponentValue = 255; /* color component is coded from 0 to 255 ;  it is 8 bit color file */
     FILE * fp;
 
-    long x,y;
+    unsigned long x,y;
     for (x = 0; x < nb_cell; ++x) {
         for (y = 0; y < nb_cell; ++y) {
             data[x][y] = p_board[y][nb_cell-x-1].color;
