@@ -1,6 +1,6 @@
 # Langton's ant
 
-<img src="https://github.com/AlexFabre/Langton-ant/blob/master/langton_ant.gif" scale=1000% />
+<img src="https://github.com/AlexFabre/Langton-ant/blob/master/langton_ant.gif" width="400" height="400" />
 
 This is a little implementation of Mr Langton well known ant algorithm. This programm is in C and should run easily on macOS and Linux.
 
