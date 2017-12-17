@@ -1,8 +1,8 @@
 # Langton's ant
 
-<img src="https://github.com/AlexFabre/Langton-ant/blob/master/langton_ant.gif" width="400" height="400" />
-
 This is a little implementation of Mr Langton well known ant algorithm. This programm is in C and should run easily on macOS and Linux.
+
+<img src="https://github.com/AlexFabre/Langton-ant/blob/master/langton_ant.gif" width=1000% height=1000% />
 
 ## Build
 
@@ -16,8 +16,11 @@ Juste make sure you have
 ## Run
 
 Make langton_ant.sh bash script executable
+
 `chmod 765 langton_ant.sh`
+
 Then run it with two arguments: the size of the grid and the number of steps.
+
 `./langton_ant.sh 20 100`
 
 Thanks
