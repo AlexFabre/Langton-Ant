@@ -2,7 +2,7 @@
 echo 'Compilation'
 gcc -o ./langton_ant.out ./src/*.c
 echo 'Execution'
-if [[ $1 -lt 11 ]]; then
+if [[ $1 -lt 20 ]]; then
 	BOARD=20
 else
 	BOARD=$1
